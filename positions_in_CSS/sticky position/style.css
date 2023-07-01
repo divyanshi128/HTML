@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 800px;
+    /* background-color: lightpink; */
+    border: 3px solid black;
+    margin: 20px;
+    /* margin-top: 20px */
+    position: sticky;
+    top: 20px;
+}
+#first{
+    background-color: lightgray;
+}
+#rest{
+    background-color: lightpink;
+}

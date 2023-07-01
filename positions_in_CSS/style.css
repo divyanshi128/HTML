@@ -1,0 +1,39 @@
+div{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    display: inline-block;
+}
+/* static */
+#Static #middle{
+    position: static;
+    top: 10px;
+    left: 20px;
+    right: 30px;
+    bottom: 40px;   /* no chage as postion is static that means these top left right bottomwill not work*/
+}
+
+/* relative */
+#relative #middle{
+    position: relative;
+    top: 10px;
+    left: 20px;  /* will take the offsets from its initial position*/
+}
+
+/* ablsolute */
+#absolute{
+    position: relative;
+}
+#absolute #middle{
+    position: absolute;
+    top: 10px;
+    left: 20px; /*It will remove the element from the normal doc. flow and make it one layer above*/
+}               /*take the offsets acc. to the closest positioned parent*/
+
+/* Fixed */
+#fixed #middle{
+    position: fixed;
+    top: 10px; /*It will remove the element from the normal doc. flow and make it one layer above*/
+}               /*take the offsets acc. to the view port that is body*/
+
+
