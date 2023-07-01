@@ -1,0 +1,27 @@
+body{
+    background-image: url("./image/form.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blanchedalmond;
+}
+.head{
+    color: palevioletred;
+}
+label{
+    color: peru;
+    
+}
+#button{
+    background-color: rgb(221, 193, 190);
+    color: rgb(140, 20, 76);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
+#Resume{
+    color: blanchedalmond;
+}
+div{
+    text-align: center;
+}

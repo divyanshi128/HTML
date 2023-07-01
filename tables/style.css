@@ -1,0 +1,28 @@
+.table{
+    border: 5px solid black;
+    width: auto;
+    border-spacing: 5px;
+    padding: auto;
+        
+}
+td,th{
+    column-width: 1500px;
+    border: 2px solid rgb(12, 12, 12);
+}
+.a{
+    background-color:rgb(160, 200, 221) ;
+}
+.b{
+    background-color: rgb(198, 152, 186);
+}
+#hrow1{
+    background-color: rgb(242, 192, 131);
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#hrow2{
+    background-color: rgb(207, 121, 187);
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif ;
+}
