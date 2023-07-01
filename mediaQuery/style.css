@@ -1,0 +1,28 @@
+section{
+    height:250px;
+    width: 50vw;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 50px auto;
+    justify-content: center;
+}
+h1{
+    color: brown;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* Media querry are use to to make the chnages accorting to the size of the window */
+/* we can change it according to the orientation type of the phone screen mostly we uses the screen */
+/* for furthur info we can refer to the mdn docs */
+
+@media screen and (max-width:672px) {
+    /* h1{
+        color:blue;
+        font-size: 2em;
+    } */
+    section{
+        background-color: bisque;
+    }
+    
+}
